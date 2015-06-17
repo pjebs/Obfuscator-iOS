@@ -1,0 +1,15 @@
+//
+//  PrefixHeader.pch
+//  Example
+//
+//  Created by PJ on 17/06/2015.
+//  Copyright (c) 2015 PJ Engineering and Business Solutions Pty. Ltd. All rights reserved.
+//
+
+#ifndef Example_PrefixHeader_pch
+#define Example_PrefixHeader_pch
+
+#import "Globals.h"
+#import "Obfuscator.h"
+
+#endif
