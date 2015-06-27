@@ -17,7 +17,7 @@ When your app needs the original unobfuscated NSStrings, it dynamically decodes 
 It adds an extra layer of security against prying eyes.
 
 This makes it harder for people with jail-broken iPhones from opening up your app's executable file and 
-looking for strings embedded in the binary that may appear 'interesting.'
+looking for strings embedded in the binary that may appear 'interesting'.
 
 See generally:
 * [iOS App Security and Analysis](http://www.raywenderlich.com/46223/ios-app-security-analysis-part-2)

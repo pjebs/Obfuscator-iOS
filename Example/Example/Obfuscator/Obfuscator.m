@@ -137,7 +137,7 @@
     unsigned long length = [string length];
     
     unsigned char *temp;
-    temp = (unsigned char *)malloc(length * sizeof (unsigned char)); //Holds C String
+    temp = (unsigned char *)malloc((length+1) * sizeof (unsigned char)); //Holds C String
     for (int i=0; i<length; i++) {
         temp[i] = (unsigned char)[string characterAtIndex:i];
     }

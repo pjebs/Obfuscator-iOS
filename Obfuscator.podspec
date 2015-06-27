@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "Obfuscator"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "Secure your app by obfuscating all the hard-coded security-sensitive strings."
 
   s.description  = <<-DESC
@@ -42,7 +42,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "PJ Engineering and Business Solutions Pty. Ltd." => "enquiries@pjebs.com.au" }
   s.platform     = :ios, "6.0"
-  s.source       = { :git => "https://github.com/pjebs/Obfuscator-iOS.git", :tag => "v1.0.0" }
+  s.source       = { :git => "https://github.com/pjebs/Obfuscator-iOS.git", :tag => "v1.0.1" }
   s.source_files  = "Obfuscator/*"
   s.requires_arc = true
 
