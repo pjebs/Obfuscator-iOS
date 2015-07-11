@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "Obfuscator"
-  s.version      = "1.0.1"
+  s.version      = "2.0.0"
   s.summary      = "Secure your app by obfuscating all the hard-coded security-sensitive strings."
 
   s.description  = <<-DESC
@@ -35,6 +35,8 @@ Pod::Spec.new do |s|
                    * http://www.raywenderlich.com/46223/ios-app-security-analysis-part-2
                    * http://www.splinter.com.au/2014/09/16/storing-secret-keys/
 
+                   This library (v2+) can now be bridged over to Swift.
+
                    DESC
 
   s.homepage     = "https://github.com/pjebs/Obfuscator-iOS"
@@ -42,7 +44,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "PJ Engineering and Business Solutions Pty. Ltd." => "enquiries@pjebs.com.au" }
   s.platform     = :ios, "6.0"
-  s.source       = { :git => "https://github.com/pjebs/Obfuscator-iOS.git", :tag => "v1.0.1" }
+  s.source       = { :git => "https://github.com/pjebs/Obfuscator-iOS.git", :tag => "v2.0.0" }
   s.source_files  = "Obfuscator/*"
   s.requires_arc = true
 
