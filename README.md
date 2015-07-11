@@ -147,7 +147,7 @@ More Advanced Usage
 }
 ```
 
-This will output:
+This will output in Console Log:
 
 ```objective-c
 Salt used (in this order): [AppDelegate class],[NSObject class],[NSString class],
@@ -188,9 +188,9 @@ Sometimes it will not succeed completely, so the output will indicate which stri
 ```
 
 If your project is written in Objective-C, there are other undocumented ways to proceed after Step 1. However, this is the only way to proceed
-for a Swift based project. This way will work in both Swift and Objective-C.
+for a Swift based project. This way will also work in both Swift and Objective-C.
 
-**NB: The Salt list applied to `storeKey:forSalt:` must be ordered according to the output in Step 1. This arrangement may be different to the argument applied to `generateCodeWithSalt:WithStrings:`.
+**NB: The Salt list applied to `storeKey:forSalt:` must be ordered according to the output in Step 1. This arrangement may be different to the argument applied to `generateCodeWithSalt:WithStrings:`.**
 
 You can use different keys to identify different salts if you choose to obfuscate multiple strings using different salts.
 
