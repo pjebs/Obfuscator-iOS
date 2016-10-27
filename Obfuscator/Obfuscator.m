@@ -7,6 +7,8 @@
 
 #import "Obfuscator.h"
 
+#include <CommonCrypto/CommonCrypto.h>
+
 @interface Obfuscator ()
     @property (strong) NSString *salt;
 

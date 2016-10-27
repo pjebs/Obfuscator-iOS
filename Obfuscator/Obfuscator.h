@@ -6,7 +6,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#include <CommonCrypto/CommonCrypto.h>
 
 /*
  * Code based on these articles/code-samples:
